@@ -10,5 +10,5 @@ sudo apt-get install ansible
 
 **2. Run Playbook**
 ```bash
-sudo ansible-pull -U https://april-20-studios@bitbucket.org/april-20-studios/ansible.git
+sudo ansible-pull -U https://github.com/PCB-AU/ansible.git
 ```
