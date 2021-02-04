@@ -1,2 +1,2 @@
-  - name: Install packages
-    apt: name=['htop', 'mc', 'tmux']
+- name: Install packages
+  apt: name=['htop', 'mc', 'tmux']
