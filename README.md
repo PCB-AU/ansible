@@ -2,9 +2,8 @@ This repository can be used to create a consistent Ubuntu workstation.
 
 **1. Install Ansible**
 ```bash
-sudo apt-get install software-properties-common
-sudo apt-add-repository ppa:ansible/ansible
 sudo apt-get update
+Sudo apt-get install git
 sudo apt-get install ansible
 ```
 
