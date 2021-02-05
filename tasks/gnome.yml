@@ -7,3 +7,10 @@
 - name: Set GNOME Wallpaper
   become_user: paul
   dconf: key="/org/gnome/desktop/background/picture-uri" value="'file:///home/paul/.wallpaper.jpg'"
+
+#- name: Copy lockscreenfile
+#  copy: src=files/lockscreen.jpg dest=/home/paul/.lockscreen.jpg owner=paul group=paul mode=600
+#
+#- name: Set lock screen background
+#  become_user: paul
+#  dconf: key="/org/gnome/desktop/screensaver/picture-uri" value="'file:///home/paul/.lockscreen.jpg'"
