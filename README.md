@@ -1,13 +1,11 @@
 This repository can be used to create a consistent Ubuntu workstation.
 
-**1. Install Ansible**
-```bash
-sudo apt-get update
-Sudo apt-get install git
-sudo apt-get install ansible
-```
+## New Machine Setup
 
-**2. Run Playbook**
+For a new machine, I run the following command to set up my computer:
+
 ```bash
-sudo ansible-pull -U https://github.com/PCB-AU/ansible.git
+wget -qO- \
+https://github.com/iancleary/ansible-desktop/raw/main/run.sh | \
+bash
 ```
