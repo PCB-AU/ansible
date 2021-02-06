@@ -6,6 +6,6 @@ For a new machine, I run the following command to set up my computer:
 
 ```bash
 wget -qO- \
-https://github.com/iancleary/ansible-desktop/raw/main/run.sh | \
+https://github.com/PCB-AU/ansible/raw/main/run.sh | \
 bash
 ```
